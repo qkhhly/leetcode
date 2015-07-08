@@ -1,0 +1,2 @@
+
+Set start to the beginning of the string. Then scan the string and use a dict to record the appearance postion of each character, if finding a character that has appeared before (and the appearance is after the start of the substring), update the longest length using the start position and the character's current location. Update the start of the substring to this charater's previous appearance + 1. Update the apperance location of the character.
