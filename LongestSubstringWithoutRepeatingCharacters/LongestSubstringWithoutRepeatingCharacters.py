@@ -8,15 +8,6 @@ class Solution:
 
         if len(s) == 0:
             return 0
-        
-        if len(s) == 1:
-            return 1
-        
-        if len(s) == 2:
-            if s[0] != s[1]:
-                return 2
-            else:
-                return 1
             
         #use two pointers
         start = 0
