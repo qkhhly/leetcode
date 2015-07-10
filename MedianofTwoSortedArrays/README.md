@@ -11,5 +11,5 @@ Merges two sorted array into another sorted array, then return the median of the
 #### MedianofTwoSortedArrays-3.py
 Uses a divide and conqure algorithm to find the median of two sorted array. A generaliaztion of this algorithm is in ```findKth.py```.
 
-### findKth.py
+#### findKth.py
 Find the k-th smallest element in two sorted array. This is used to solve this "find median" problem.
