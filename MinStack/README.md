@@ -1,0 +1,2 @@
+# a stack that supports retrieving its min element in constant time
+The only thing to keep in mind is that there may be multiple elements that equal to the min value, so you need to add all of them into the min stack
